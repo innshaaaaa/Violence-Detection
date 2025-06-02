@@ -14,7 +14,7 @@ Violence detection in surveillance and public safety systems is critical for pro
 
 ## Features
 
-- Implemented hybrid architecture with **Inception V3 + ConvLSTM**.
+- Implemented hybrid architecture with **Inception V3 + Conv-LSTM**.
 - Performed **data preprocessing and augmentation** on video frames to enhance model accuracy and generalization.
 - Achieved **97% accuracy** in distinguishing between violent and non-violent actions.
 - End-to-end pipeline for frame extraction, preprocessing, model training, and prediction.
@@ -31,7 +31,7 @@ Violence detection in surveillance and public safety systems is critical for pro
 
 ├── model/
 │ ├── inception_model.py
-│ ├── convlstm_model.py
+│ ├── conv-lstm_model.py
 ├── data/
 │ ├── raw_videos/
 │ ├── processed_frames/
